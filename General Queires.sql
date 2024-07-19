@@ -10,6 +10,8 @@ FROM TABLE(INFER_SCHEMA(
 FROM @loadtable/outputs.csv t
 
 
+-- hello test
+
 CREATE OR REPLACE FILE FORMAT my_csv_format 
 TYPE = 'CSV' 
 PARSE_HEADER = TRUE
